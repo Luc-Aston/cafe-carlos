@@ -1,0 +1,306 @@
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+a.logo {
+  background-image: url(../img/coffee.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+.nuestro-cafe {
+  margin-top: -21px;
+}
+
+.header-index {
+  background-color: #c08552;
+}
+
+.ul-header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #432818;
+}
+
+.li-header {
+  float: left;
+}
+
+.a-li-header {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.a-li-header:hover {
+  background-color: #111;
+}
+
+.li-mapa {
+  float: right;
+}
+
+.cafe-img {
+  width: 150px;
+}
+
+.header-index {
+  background-color: #c08552;
+  position: sticky;
+  top: 0;
+}
+
+.footer {
+  background-color: #c08552;
+  overflow: hidden;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px 40px 40px;
+}
+
+.main {
+  background-color: #f3e9dc;
+  margin-top: -8px;
+  margin-bottom: -15px;
+  padding: 20px 40px 40px;
+}
+
+.h1-menu {
+  margin-top: -8px;
+}
+
+.mapa {
+  margin-top: -8px;
+  margin-bottom: -12px;
+  height: 70vh;
+  width: 99vw;
+}
+
+.espresso {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: #111;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.flat-white {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: #111;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.americano {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: #111;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.latte {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: #111;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.macchiato {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: #111;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.cappuccino {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: #111;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.lungo {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: #111;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.roll-canela {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: #111;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.alfajores {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: #111;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.tostados {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: #111;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.cookies {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: #111;
+  border-style: solid;
+  border-width: 1px;
+}
+
+html {
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.cafes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  justify-content: space-evenly;
+}
+
+.comida {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  justify-content: space-evenly;
+}
+
+.comida-img {
+  width: 150px;
+}
+
+.footer-menu {
+  background-color: #c08552;
+  overflow: hidden;
+  vertical-align: top;
+  text-decoration: none;
+  margin-top: 23px;
+  padding: 20px 40px 40px;
+}
+
+.main-menu {
+  background-color: #f3e9dc;
+  margin-top: -8px;
+  margin-bottom: -23px;
+  padding-bottom: 12px;
+  padding: 20px 40px 40px;
+}
+
+.footer-ubicacion {
+  background-color: #c08552;
+  overflow: hidden;
+  vertical-align: top;
+  text-decoration: none;
+  margin-top: 22px;
+  padding: 20px 40px 40px;
+}
+
+.principal {
+  padding: 20px 40px 40px;
+}
+
+.imagen-principal {
+  width: 25%;
+  margin: 30px 30px 30px 0;
+  float: left;
+}
+
+.texto-principal {
+  display: inline-block;
+}
+
+.main-ubicacion {
+  background-color: #f3e9dc;
+  margin-top: -8px;
+  margin-bottom: -15px;
+}
