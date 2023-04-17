@@ -64,9 +64,17 @@ a.logo {
   overflow: hidden;
 }
 
+.footer,
+.main,
+.footer-menu,
+.main-menu,
+.footer-ubicacion,
+.principal {
+  padding: 20px 40px 40px;
+}
+
 .footer {
   vertical-align: top;
-  padding: 20px 40px 40px;
 }
 
 .main,
@@ -79,7 +87,6 @@ a.logo {
 
 .main {
   margin-bottom: -15px;
-  padding: 20px 40px 40px;
 }
 
 .mapa {
@@ -128,7 +135,6 @@ html {
 .footer-menu {
   vertical-align: top;
   margin-top: 23px;
-  padding: 20px 40px 40px;
 }
 
 .footer,
@@ -141,17 +147,11 @@ html {
 .main-menu {
   margin-bottom: -23px;
   padding-bottom: 12px;
-  padding: 20px 40px 40px;
 }
 
 .footer-ubicacion {
   vertical-align: top;
   margin-top: 22px;
-  padding: 20px 40px 40px;
-}
-
-.principal {
-  padding: 20px 40px 40px;
 }
 
 .imagen-principal {
