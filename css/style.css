@@ -3,11 +3,7 @@ html {
 }
 
 a.logo {
-  background-image: url(../img/coffee.svg);
-  background-color: transparent;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
+  background: url(../img/coffee.svg) no-repeat 0 0 / cover transparent;
   display: block;
   height: 50px;
   width: 50px;
@@ -21,11 +17,11 @@ a.logo {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #432818;
 }
 
-.li-header {
+.li-header,
+.imagen-principal {
   float: left;
 }
 
@@ -34,7 +30,6 @@ a.logo {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
 
 .a-li-header:hover {
@@ -45,63 +40,55 @@ a.logo {
   float: right;
 }
 
-.cafe-img {
+.cafe-img,
+.comida-img {
   width: 150px;
 }
 
 .header-index {
-  background-color: #c08552;
   position: sticky;
   top: 0;
 }
 
-.footer {
+.header-index,
+.footer-menu,
+.footer,
+.footer-ubicacion {
   background-color: #c08552;
+}
+
+.footer,
+.footer-ubicacion,
+.footer-menu,
+.ul-header {
   overflow: hidden;
+}
+
+.footer {
   vertical-align: top;
-  text-decoration: none;
   padding: 20px 40px 40px;
 }
 
-.main {
-  background-color: #f3e9dc;
+.main,
+.titulo-menu,
+.mapa,
+.main-menu,
+.main-ubicacion {
   margin-top: -8px;
+}
+
+.main {
   margin-bottom: -15px;
   padding: 20px 40px 40px;
 }
 
-.titulo-menu {
-  margin-top: -8px;
-}
-
 .mapa {
-  margin-top: -8px;
   margin-bottom: -12px;
   height: 70vh;
   width: 99vw;
 }
 
-.cafes {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  overflow: auto;
-  justify-content: space-evenly;
-}
-
-.border-cafes {
-  display: inline-block;
-  text-align: center;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: #111;
-  border-style: solid;
-  border-width: 1px;
-}
-
+.cafes,
 .comida {
   display: flex;
   flex-direction: row;
@@ -110,6 +97,7 @@ a.logo {
   justify-content: space-evenly;
 }
 
+.border-cafes,
 .border-comida {
   display: inline-block;
   text-align: center;
@@ -123,43 +111,41 @@ a.logo {
   border-width: 1px;
 }
 
+.main,
+.main-menu,
+.main-ubicacion {
+  background-color: #f3e9dc;
+}
+
 html {
-  margin-left: -8px;
-  margin-right: -8px;
-  margin-top: -8px;
-  margin-bottom: -8px;
+  margin: -8px;
 }
 
 .copyright {
   text-align: center;
 }
 
-.comida-img {
-  width: 150px;
-}
-
 .footer-menu {
-  background-color: #c08552;
-  overflow: hidden;
   vertical-align: top;
-  text-decoration: none;
   margin-top: 23px;
   padding: 20px 40px 40px;
 }
 
+.footer,
+.footer-menu,
+.footer-ubicacion,
+.a-li-header {
+  text-decoration: none;
+}
+
 .main-menu {
-  background-color: #f3e9dc;
-  margin-top: -8px;
   margin-bottom: -23px;
   padding-bottom: 12px;
   padding: 20px 40px 40px;
 }
 
 .footer-ubicacion {
-  background-color: #c08552;
-  overflow: hidden;
   vertical-align: top;
-  text-decoration: none;
   margin-top: 22px;
   padding: 20px 40px 40px;
 }
@@ -171,7 +157,6 @@ html {
 .imagen-principal {
   width: 25%;
   margin: 30px 30px 30px 0;
-  float: left;
 }
 
 .texto-principal {
@@ -179,7 +164,5 @@ html {
 }
 
 .main-ubicacion {
-  background-color: #f3e9dc;
-  margin-top: -8px;
   margin-bottom: -15px;
 }
