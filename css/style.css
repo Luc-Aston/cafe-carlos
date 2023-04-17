@@ -74,7 +74,7 @@ a.logo {
   padding: 20px 40px 40px;
 }
 
-.h1-menu {
+.titulo-menu {
   margin-top: -8px;
 }
 
@@ -85,7 +85,15 @@ a.logo {
   width: 99vw;
 }
 
-.espresso {
+.cafes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  justify-content: space-evenly;
+}
+
+.border-cafes {
   display: inline-block;
   text-align: center;
   padding: 15px;
@@ -98,124 +106,15 @@ a.logo {
   border-width: 1px;
 }
 
-.flat-white {
-  display: inline-block;
-  text-align: center;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: #111;
-  border-style: solid;
-  border-width: 1px;
+.comida {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  justify-content: space-evenly;
 }
 
-.americano {
-  display: inline-block;
-  text-align: center;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: #111;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.latte {
-  display: inline-block;
-  text-align: center;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: #111;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.macchiato {
-  display: inline-block;
-  text-align: center;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: #111;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.cappuccino {
-  display: inline-block;
-  text-align: center;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: #111;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.lungo {
-  display: inline-block;
-  text-align: center;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: #111;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.roll-canela {
-  display: inline-block;
-  text-align: center;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: #111;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.alfajores {
-  display: inline-block;
-  text-align: center;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: #111;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.tostados {
-  display: inline-block;
-  text-align: center;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border: #111;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.cookies {
+.border-comida {
   display: inline-block;
   text-align: center;
   padding: 15px;
@@ -237,22 +136,6 @@ html {
 
 .copyright {
   text-align: center;
-}
-
-.cafes {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  overflow: auto;
-  justify-content: space-evenly;
-}
-
-.comida {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  overflow: auto;
-  justify-content: space-evenly;
 }
 
 .comida-img {
