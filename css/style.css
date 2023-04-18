@@ -77,6 +77,10 @@ a.logo {
   vertical-align: top;
 }
 
+.titulo-menu-comida, .titulo-menu-cafe {
+  text-align: center;
+}
+
 .main,
 .titulo-menu,
 .mapa,
