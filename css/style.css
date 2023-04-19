@@ -1,4 +1,9 @@
 html {
+  margin: 0 0 0 0;
+  overflow-x: hidden;
+}
+
+body {
   font-family: "Raleway", sans-serif;
 }
 
@@ -9,31 +14,11 @@ a.logo {
   width: 50px;
 }
 
-.nuestro-cafe {
-  margin-top: -21px;
-}
-
 .ul-header {
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: #432818;
-}
-
-.li-header,
-.imagen-principal {
-  float: left;
-}
-
-.a-li-header {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-}
-
-.a-li-header:hover {
-  background-color: #111;
 }
 
 .li-mapa {
@@ -43,6 +28,7 @@ a.logo {
 .cafe-img,
 .comida-img {
   width: 150px;
+  height: 115px;
 }
 
 .header-index {
@@ -64,39 +50,17 @@ a.logo {
   overflow: hidden;
 }
 
-.footer,
-.main,
-.footer-menu,
-.main-menu,
-.footer-ubicacion,
-.principal {
-  padding: 20px 40px 40px;
-}
-
 .footer {
-  vertical-align: top;
+  margin-left: 20;
 }
 
-.titulo-menu-comida, .titulo-menu-cafe {
+.titulo-menu-comida,
+.titulo-menu-cafe {
   text-align: center;
 }
 
-.main,
-.titulo-menu,
-.mapa,
-.main-menu,
-.main-ubicacion {
-  margin-top: -8px;
-}
-
-.main {
-  margin-bottom: -15px;
-}
-
 .mapa {
-  margin-bottom: -12px;
   height: 70vh;
-  width: 99vw;
 }
 
 .cafes,
@@ -115,8 +79,8 @@ a.logo {
   padding: 15px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border: #111;
   border-style: solid;
   border-width: 1px;
@@ -126,6 +90,7 @@ a.logo {
 .main-menu,
 .main-ubicacion {
   background-color: #f3e9dc;
+  padding-top: 5px;
 }
 
 html {
@@ -141,22 +106,14 @@ html {
   margin-top: 23px;
 }
 
-.footer,
-.footer-menu,
-.footer-ubicacion,
-.a-li-header {
+.footer {
   text-decoration: none;
 }
 
-.main-menu {
-  margin-bottom: -23px;
-  padding-bottom: 12px;
-}
-
-.footer-ubicacion {
+/* .footer-ubicacion {
   vertical-align: top;
   margin-top: 22px;
-}
+} */
 
 .imagen-principal {
   width: 25%;
@@ -167,6 +124,10 @@ html {
   display: inline-block;
 }
 
-.main-ubicacion {
-  margin-bottom: -15px;
+.footer {
+  padding-left: 20px;
+}
+
+a {
+  color: #f3e9dc;
 }
