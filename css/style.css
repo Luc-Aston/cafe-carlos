@@ -143,3 +143,15 @@ ul {
 textarea {
   resize: none;
 }
+
+a:hover {
+  text-shadow: 1px 1px maroon;
+}
+
+.cafe-img:hover,
+.comida-img:hover {
+  transition: 0.3s;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
