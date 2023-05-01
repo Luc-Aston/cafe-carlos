@@ -31,27 +31,19 @@ a.logo {
   height: 115px;
 }
 
-.header-index {
+header {
   position: sticky;
   top: 0;
 }
 
-.header-index,
-.footer-menu,
-.footer,
-.footer-ubicacion {
+header,
+footer {
   background-color: #c08552;
 }
 
-.footer,
-.footer-ubicacion,
-.footer-menu,
+footer,
 .ul-header {
   overflow: hidden;
-}
-
-.footer {
-  margin-left: 20;
 }
 
 .titulo-menu-comida,
@@ -86,9 +78,7 @@ a.logo {
   border-width: 1px;
 }
 
-.main,
-.main-menu,
-.main-ubicacion {
+main {
   background-color: #f3e9dc;
   padding-top: 5px;
 }
@@ -101,19 +91,11 @@ html {
   text-align: center;
 }
 
-.footer-menu {
-  vertical-align: top;
-  margin-top: 23px;
-}
-
-.footer {
+footer {
   text-decoration: none;
+  padding-left: 20px;
+  margin-left: 20;
 }
-
-/* .footer-ubicacion {
-  vertical-align: top;
-  margin-top: 22px;
-} */
 
 .imagen-principal {
   width: 25%;
@@ -122,10 +104,6 @@ html {
 
 .texto-principal {
   display: inline-block;
-}
-
-.footer {
-  padding-left: 20px;
 }
 
 a {
