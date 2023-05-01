@@ -12,17 +12,12 @@ a.logo {
   display: block;
   height: 50px;
   width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.ul-header {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #432818;
-}
-
-.li-mapa {
-  float: right;
+.nav {
+  background-color: #c08552;
 }
 
 .cafe-img,
@@ -108,4 +103,39 @@ footer {
 
 a {
   color: #f3e9dc;
+}
+
+li {
+  margin-left: 5px;
+}
+
+.li-footer {
+  display: inline-block;
+}
+
+.facebook {
+background: url(../img/facebook.svg) no-repeat 0 0 / cover transparent;
+display: inline-block;
+width: 50px;
+height: 50px;
+}
+
+.instagram {
+  background: url(../img/instagram.svg) no-repeat 0 0 / cover transparent;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  }
+
+.instagram:hover {
+  cursor: pointer;
+}
+
+.facebook:hover {
+  cursor: pointer;
+}
+
+ul {
+padding: 0 0 0 0;
+list-style-type: none;
 }
