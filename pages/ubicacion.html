@@ -58,15 +58,60 @@
       </nav>
     </header>
     <main>
-      <div class="row">
-        <iframe
-          class="mapa col-12"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14324.441491305468!2d-58.3835441989752!3d-34.60687149220929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccadb57fd1e5f%3A0xcc737c4eb0a8614b!2sPlaza%20de%20Mayo!5e0!3m2!1sen!2sar!4v1679294162325!5m2!1sen!2sar"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+      <div class="container">
+        <div class="row">
+          <iframe
+            class="mapa col-12 col-xl-7"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14324.441491305468!2d-58.3835441989752!3d-34.60687149220929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccadb57fd1e5f%3A0xcc737c4eb0a8614b!2sPlaza%20de%20Mayo!5e0!3m2!1sen!2sar!4v1679294162325!5m2!1sen!2sar"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <section class="col-12 col-xl-5">
+            <h2>Contacto</h2>
+            <form action="">
+              <label for="email">Correo Electronico:</label><br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Correo Electronico"
+                class="col-6 col-xl-7"
+              />
+              <br />
+              <label for="fname">Nombre:</label><br />
+              <input
+                type="text"
+                name="nombre"
+                id="nombre"
+                placeholder="Nombre"
+                class="col-6 col-xl-7"
+              />
+              <br />
+              <label for="lname">Apellido:</label><br />
+              <input
+                type="text"
+                name="apellido"
+                id="apellido"
+                placeholder="Apellido"
+                class="col-6 col-xl-7"
+              />
+              <br />
+              <label for="mensaje">Mensaje</label> <br />
+              <textarea
+                type="text"
+                name="mensaje"
+                id="mensaje"
+                placeholder="Escriba su mensaje aqui"
+                class="col-12 col-xl-9"
+              ></textarea>
+              <br />
+              <input type="submit" value="Enviar" />
+              <input type="reset" value="Borrar" />
+            </form>
+          </section>
+        </div>
       </div>
     </main>
     <footer>

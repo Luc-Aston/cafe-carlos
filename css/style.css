@@ -114,10 +114,10 @@ li {
 }
 
 .facebook {
-background: url(../img/facebook.svg) no-repeat 0 0 / cover transparent;
-display: inline-block;
-width: 50px;
-height: 50px;
+  background: url(../img/facebook.svg) no-repeat 0 0 / cover transparent;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
 }
 
 .instagram {
@@ -125,7 +125,7 @@ height: 50px;
   display: inline-block;
   width: 50px;
   height: 50px;
-  }
+}
 
 .instagram:hover {
   cursor: pointer;
@@ -136,6 +136,10 @@ height: 50px;
 }
 
 ul {
-padding: 0 0 0 0;
-list-style-type: none;
+  padding: 0 0 0 0;
+  list-style-type: none;
+}
+
+textarea {
+  resize: none;
 }
