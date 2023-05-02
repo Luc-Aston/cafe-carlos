@@ -153,7 +153,7 @@ a:hover {
   cursor: pointer;
 }
 
-h2 {
+h3 {
   text-decoration: underline;
 }
 
@@ -163,4 +163,8 @@ h2 {
 
 .nav {
   background-color: #c08552;
+}
+
+.faq {
+  list-style-type:circle;
 }
