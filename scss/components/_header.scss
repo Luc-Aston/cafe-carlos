@@ -1,0 +1,30 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  background-color: $primary-color;
+}
+
+a.navbar-brand {
+  background: url(../img/coffee-cup-outline-svgrepo-com.svg) no-repeat 0 0 /
+    cover transparent;
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.ul-header {
+  overflow: hidden;
+}
+.navbar {
+  background-color: $primary-color;
+  .nav-link {
+    color: $nav-link-color;
+    &:hover {
+      color: $nav-link-hover-color;
+    }
+  }
+}

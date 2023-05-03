@@ -1,51 +1,180 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
 html {
-  margin: 0 0 0 0;
+  margin: 0;
   overflow-x: hidden;
+}
+
+main {
+  background-color: #f3e9dc;
+  padding-top: 5px;
 }
 
 body {
   font-family: "Raleway", sans-serif;
 }
 
-a.navbar-brand {
-  background: url(../img/coffee-cup-outline-svgrepo-com.svg) no-repeat 0 0 /
-    cover transparent;
-  display: block;
-  height: 50px;
-  width: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
+a {
+  color: #f3e9dc;
 }
 
-.cafe-img,
-.comida-img {
-  width: 150px;
-  height: 115px;
+a:hover {
+  text-shadow: 1px 1px maroon;
+}
+
+p {
+  text-align: justify;
+}
+
+.imagen-radius {
+  border-radius: 1%;
 }
 
 header {
   position: sticky;
   top: 0;
   z-index: 10000;
-}
-
-header,
-footer {
   background-color: #c08552;
 }
 
-footer,
+a.navbar-brand {
+  background: url(../img/coffee-cup-outline-svgrepo-com.svg) no-repeat 0 0/cover transparent;
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+}
+a.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
 .ul-header {
   overflow: hidden;
+}
+
+.navbar {
+  background-color: #c08552;
+}
+.navbar .nav-link {
+  color: #f3e9dc;
+}
+.navbar .nav-link:hover {
+  color: #c08552;
+}
+
+footer {
+  background-color: #c08552;
+  overflow: hidden;
+  text-decoration: none;
+  padding-left: 20px;
+}
+footer h3 {
+  text-decoration: underline;
+}
+footer ul {
+  padding: 0;
+  list-style-type: none;
+}
+footer ul li {
+  display: table-row;
+  margin-left: 2px;
+}
+
+.footer-extra {
+  display: inline-block;
+}
+
+.facebook {
+  background-image: url(../img/facebook.svg);
+}
+
+.instagram {
+  background-image: url(../img/instagram.svg);
+}
+
+.facebook,
+.instagram {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.cafe-img,
+.comida-img {
+  display: inline-block;
+  width: 150px;
+  height: 115px;
+  transition: 0.3s;
+}
+.cafe-img:hover,
+.comida-img:hover {
+  color: white;
+  opacity: 0.7;
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .titulo-menu-comida,
 .titulo-menu-cafe {
   text-align: center;
-}
-
-.mapa {
-  height: 70vh;
 }
 
 .cafes,
@@ -62,122 +191,20 @@ footer,
   display: inline-block;
   text-align: center;
   padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border: #111;
-  border-style: solid;
-  border-width: 1px;
+  margin: 5px 10px;
+  border: #111 solid 1px;
 }
 
-main {
-  background-color: #f3e9dc;
-  padding-top: 5px;
-}
-
-html {
-  margin: -8px;
-}
-
-.copyright {
-  text-align: center;
-}
-
-footer {
-  text-decoration: none;
-  padding-left: 20px;
-  margin-left: 20;
-}
-
-.imagen-principal {
-  width: 25%;
-  margin: 30px 30px 30px 0;
-}
-
-.texto-principal {
-  display: inline-block;
-}
-
-a {
-  color: #f3e9dc;
-}
-
-li {
-  margin-left: 5px;
-}
-
-.li-footer {
-  display: inline-block;
-}
-
-.facebook {
-  background: url(../img/facebook.svg) no-repeat 0 0 / cover transparent;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-}
-
-.instagram {
-  background: url(../img/instagram.svg) no-repeat 0 0 / cover transparent;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-}
-
-.instagram:hover {
-  cursor: pointer;
-}
-
-.facebook:hover {
-  cursor: pointer;
-}
-
-ul {
-  padding: 0 0 0 0;
-  list-style-type: none;
-}
-
-textarea {
-  resize: none;
-}
-
-a:hover {
-  text-shadow: 1px 1px maroon;
-}
-
-.cafe-img:hover,
-.comida-img:hover {
-  transition: 0.3s;
-  color: white;
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-h3 {
-  text-decoration: underline;
-}
-
-.nav-link {
-  color: #f3e9dc;
-}
-
-.navbar {
-  background-color: #c08552;
+.mapa {
+  height: 70vh;
 }
 
 .faq {
   list-style-type: circle;
 }
 
-p {
-  text-align: justify;
+textarea {
+  resize: none;
 }
 
-.nav-link:hover {
-  color: #f3e9dc;
-}
-
-.imagen-radius {
-  border-radius: 1%;
-}
+/*# sourceMappingURL=style.css.map */

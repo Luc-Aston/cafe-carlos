@@ -1,0 +1,86 @@
+$primary-color: #c08552;
+$secondary-color: #f3e9dc;
+$border-color: #111;
+$nav-link-color: $secondary-color;
+$nav-link-hover-color: $primary-color;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+html {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+main {
+  background-color: $secondary-color;
+  padding-top: 5px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  color: $secondary-color;
+}
+
+a:hover {
+  text-shadow: 1px 1px maroon;
+}
+
+p {
+  text-align: justify;
+}
+
+.imagen-radius {
+  border-radius: 1%;
+}
