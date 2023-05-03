@@ -26,6 +26,7 @@ a.logo {
 header {
   position: sticky;
   top: 0;
+  z-index: 10000;
 }
 
 header,
@@ -167,4 +168,16 @@ h3 {
 
 .faq {
   list-style-type: circle;
+}
+
+p {
+  text-align: justify;
+}
+
+.nav-link:hover {
+  color: #f3e9dc;
+}
+
+.imagen-radius {
+  border-radius: 1%;
 }
