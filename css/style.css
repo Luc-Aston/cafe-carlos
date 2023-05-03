@@ -7,7 +7,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-a.logo {
+a.navbar-brand {
   background: url(../img/coffee-cup-outline-svgrepo-com.svg) no-repeat 0 0 /
     cover transparent;
   display: block;
@@ -162,7 +162,7 @@ h3 {
   color: #f3e9dc;
 }
 
-.nav {
+.navbar {
   background-color: #c08552;
 }
 
