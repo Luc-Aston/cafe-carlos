@@ -133,23 +133,17 @@ footer ul li {
   display: inline-block;
 }
 
-.facebook {
-  background-image: url(../img/facebook.svg);
-}
-
-.instagram {
-  background-image: url(../img/instagram.svg);
-}
-
-.facebook,
-.instagram {
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: cover;
+.redes-sociales {
   display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50px;
   height: 50px;
   cursor: pointer;
+}
+
+img {
+  text-align: center;
 }
 
 .copyright {
@@ -205,6 +199,29 @@ footer ul li {
 
 textarea {
   resize: none;
+}
+
+.input-submit {
+  background-color: #c08552;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+}
+.input-submit:hover {
+  cursor: pointer;
+  color: white;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+h1 {
+  display: block;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
