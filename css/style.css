@@ -16,6 +16,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;
 }
 
 img,
@@ -57,10 +58,6 @@ html {
 main {
   background-color: #f3e9dc;
   padding-top: 5px;
-}
-
-body {
-  font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -139,6 +136,8 @@ footer ul li {
   margin-right: auto;
   width: 50px;
   height: 50px;
+}
+.redes-sociales:hover {
   cursor: pointer;
 }
 
@@ -150,15 +149,12 @@ img {
   text-align: center;
 }
 
-.cafe-img,
-.comida-img {
+.img-menu {
   display: inline-block;
-  width: 150px;
   height: 115px;
   transition: 0.3s;
 }
-.cafe-img:hover,
-.comida-img:hover {
+.img-menu:hover {
   color: white;
   opacity: 0.7;
   transition: 0.3s;
@@ -166,13 +162,11 @@ img {
   transform: scale(1.1);
 }
 
-.titulo-menu-comida,
-.titulo-menu-cafe {
+.titulo-menu {
   text-align: center;
 }
 
-.cafes,
-.comida {
+.menu {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -180,13 +174,26 @@ img {
   justify-content: space-evenly;
 }
 
-.border-cafes,
-.border-comida {
+.descripcion {
+  text-align: left;
+}
+
+.border-menu {
   display: inline-block;
   text-align: center;
   padding: 15px;
   margin: 5px 10px;
   border: #111 solid 1px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 .mapa {
@@ -217,6 +224,10 @@ textarea {
   color: white;
   opacity: 0.7;
   transition: 0.3s;
+}
+
+.h1-ubicacion {
+  margin-bottom: 0;
 }
 
 h1 {

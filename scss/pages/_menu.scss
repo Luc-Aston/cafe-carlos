@@ -1,7 +1,5 @@
-.cafe-img,
-.comida-img {
+.img-menu {
   display: inline-block;
-  width: 150px;
   height: 115px;
   transition: 0.3s;
   &:hover {
@@ -12,12 +10,12 @@
     transform: scale(1.1);
   }
 }
-.titulo-menu-comida,
-.titulo-menu-cafe {
+
+.titulo-menu {
   text-align: center;
 }
-.cafes,
-.comida {
+
+.menu {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -25,11 +23,24 @@
   justify-content: space-evenly;
 }
 
-.border-cafes,
-.border-comida {
+.descripcion {
+  text-align: left;
+}
+
+.border-menu {
   display: inline-block;
   text-align: center;
   padding: 15px;
   margin: 5px 10px;
   border: $border-color solid 1px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+li {
+  list-style-type: none;
 }

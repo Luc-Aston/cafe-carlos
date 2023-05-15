@@ -22,6 +22,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;
 }
 
 img,
@@ -63,10 +64,6 @@ html {
 main {
   background-color: $secondary-color;
   padding-top: 5px;
-}
-
-body {
-  font-family: "Raleway", sans-serif;
 }
 
 a {
